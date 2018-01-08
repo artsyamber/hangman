@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>hangman</title>
+		<link href='css/bootstrap.css' rel='stylesheet'>
+		<link href='css/main.css' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet"> 
+		 <meta charset="UTF-8"> 
+	</head>
+	<body>
+	<img src="images/hangmanimg-top.jpg" alt="hangman banner" class="col-md-offset-2 col-md-8">
+		<div class="main-text col-md-offset-2 col-md-8">
+			<p class="head-text">Guess what word I'm thinking of...</p>
+			<p class="sub-text">press any key to get started</p>
+			<table>
+				<tr>
+					<td>
+						<p>Wins:
+						<span id ="wins"> </span></p>
+					</td>
+					<td>
+						<p>Losses:
+						<span id ="loss"> </span></p>
+					</td>
+				</tr>
+			</table>
+			<p>Current Word:
+			<span id ="word"> </span></p>
+			<p>Guesses Left: 
+			<span id ="numTries"> </span></p>
+			<p>Your guesses so far: 
+			<span id ="guessed"> </span></p>
+		</div>
+	<img src="images/hangmanimg-bottom.jpg" alt="hangman footer" class="col-md-offset-2 col-md-8">
+	<script type="text/javascript" src="hangmanjsnew.js"></script>
+
+	</body>
+</html>
